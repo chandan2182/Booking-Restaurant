@@ -65,35 +65,13 @@ const Navbar = () => {
               <NavLink className="nav-link" to="/">
                 Home
               </NavLink>
-            </li>
-
+            </li>   
             <li className="nav-item">
-              <NavLink className="nav-link" to="/event">
-                Event Handling
+              <NavLink className="nav-link" to="/Browse">
+                Browse Restaurant
               </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/state">
-                State Management
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/todo">
-                Todo
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/browse">
-                Browse
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/manageuser">
-                Manage User
-              </NavLink>
-            </li>
+            </li>  
           </ul>
-
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             {displayUserOption()}
           </ul>
